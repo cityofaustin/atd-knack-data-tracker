@@ -11,6 +11,6 @@ The Data Tracker serves as the primary work & asset management system for Austin
 - Right-of-Way
 
 #### Documentation
-TODO
+[Read the docs](https://github.com/cityofaustin/transportation-data-tracker/tree/master/docs)
 
 ![signal details](media/data-tracker-signal-screenshot.png)
