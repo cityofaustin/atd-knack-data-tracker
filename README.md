@@ -13,4 +13,4 @@ The Data Tracker serves as the primary work & asset management system for Austin
 #### Documentation
 TODO
 
-TODO: Pretty Screenshot**
+![signal details](media/data-tracker-signal-screenshot.png)
