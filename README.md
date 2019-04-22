@@ -5,7 +5,7 @@ The Data Tracker serves as the primary work & asset management system for Austin
 
 [http://transportation.austintexas.io/data-tracker](http://transportation.austintexas.io/data-tracker)
 
-#### Stakholder Divisions
+#### Stakeholder Divisions
 - Arterial Management
 - Signs & Markings
 - Right-of-Way
