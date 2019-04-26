@@ -7,26 +7,17 @@ assignees: ''
 
 ---
 
-**Project Name**
-Short name of enhancement, project name
+**Project Name**: Short name of enhancement, project name
 
-**Requested By**
-Type in Name of Requester 
+**Requested By**: Type in Name of Requester
 
-**Requesting Division**
-- [ ] Arterial Management
-- [ ] Data & Technology Services
-- [ ] Finance & Purchasing
-- [ ] Human Resources
-- [ ] Mobility Services
-- [ ] Parking Enterprise
-- [ ] Right-of-Way
-- [ ] Signs & Markings
-- [ ] Systems Development
-- [ ] Transportation Engineering
+**Customer Priority**: 
+- [ ] Low
+- [ ] Normal
+- [ ] Urgent
 
 **How would you rate the impact of this issue?**
-- [ ] 0- No Data Available 
+- [ ] 0 - No Data Available 
 - [ ] 1 - Severe Impact to Services
 - [ ] 2 - Major Impact to Services
 - [ ] 3 - Minor Loss of Services
@@ -47,13 +38,6 @@ Add any other context or screenshots about the feature request here.
 **Needed By Date**
 Date Customer is requesting enhancement
 
-**Customer Priority**
-- [ ] Low
-- [ ] Normal
-- [ ] Urgent
-
+ADD LABELS
+**Requesting Division** 
 **Service Group**
-- [ ] Application Support 
-- [ ] Geospatial Services
-- [ ] Infrastructure & Engineering
-- [ ] Professional Services
