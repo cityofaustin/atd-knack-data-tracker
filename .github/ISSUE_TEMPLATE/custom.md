@@ -1,8 +1,8 @@
 ---
 name: Custom issue template
 about: 'Short description of issue '
-title: New Data Tracker Issue
-labels: ''
+title: "[INSERT SHORT DESCRIPTION] - New Data Tracker Issue"
+labels: 'Team: Apps'
 assignees: ''
 
 ---
@@ -10,10 +10,10 @@ assignees: ''
 Who: 
 Division:
 
-URL: of Data Tracker page
+URL: _of Data Tracker page_
 
 Insert Email Correspondence
 >
 
-What: long description
-Due Date: if any
+What: _long description_
+Due Date: _if any_
