@@ -2,10 +2,13 @@
 name: Bug report
 about: Create a report to help us improve
 title: "[BUG]"
-labels: ''
+labels: 'Team: Apps, Type: Bug Report'
 assignees: ''
 
 ---
+
+**Requester Name**
+**Requesting Division**
 
 **Describe the bug**
 A clear and concise description of what the bug is.
@@ -22,19 +25,6 @@ A clear and concise description of what you expected to happen.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
-
-**Requesting Division**
-- [ ] Arterial Management
-- [ ] Data & Technology Services
-- [ ] Finance & Purchasing
-- [ ] Human Resources
-- [ ] Mobility Services
-- [ ] Parking Enterprise
-- [ ] Right-of-Way
-- [ ] Signs & Markings
-- [ ] Systems Development
-- [ ] Transportation Engineering
-
 
 **Additional context**
 Add any other context about the problem here.
