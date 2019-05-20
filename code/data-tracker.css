@@ -1,0 +1,56 @@
+.kn-modal {
+  width: 100%;
+  left: 0%;
+  margin-left: 0px;
+}
+
+.kn-modal.small {
+  margin-left: 0px; 
+}
+
+.kn-input select {
+ height: 2.5em; 
+}
+
+.kn-input input[type="email"] {
+ height: 2.5em; !important
+ line-height: 2.5em;
+}
+
+     
+@media screen and (max-width:500px) {   
+  .kn-input input[type="email"], .kn-input input[type="password"]  {
+    height: 2.5em !important; 
+    line-height: 2.5em;
+  }
+}
+        
+.kn-input input.knack-date {
+    width: 7em !important;
+}
+        
+.kn-link-disabled span {
+  color: #bdbebf !important;
+}
+        
+.field_976 > .kn-value {
+    font-size: 150%;
+    font-weight: bold;
+}
+        
+.field_459 > .kn-value {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-padding{
+  padding-left: 20%
+}
+
+/* hide attachment type column (field contents are extracted via JS */
+div.view_2107 .field_2403 { display: none; }
+div.view_2108 .field_2403 { display: none; }
