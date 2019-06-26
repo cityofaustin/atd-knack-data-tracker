@@ -2,7 +2,7 @@
 name: A [new] Data Tracker Issue
 about: 'Short description of issue '
 title: ''
-labels: 'Team: Apps'
+labels: ''
 assignees: ''
 
 ---
