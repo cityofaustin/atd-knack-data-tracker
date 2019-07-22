@@ -54,3 +54,13 @@
 /* hide attachment type column (field contents are extracted via JS */
 div.view_2107 .field_2403 { display: none; }
 div.view_2108 .field_2403 { display: none; }
+
+/* hide attachment type columns (in Traffic Counts), field contents extracted via JS */
+div.view_2357 .field_3174 { display: none; }
+div.view_2486 .field_3174 { display: none; }
+
+/* hide attachment type columns (in Manage Requests under Traffic Counts), field contents extracted via JS */
+div.view_2491 .field_3174 { display: none; }
+
+/* hide attachment type columns (in Request Status under Traffic Counts), field contents extracted via JS */
+div.view_2465 .field_3174 { display: none; }
