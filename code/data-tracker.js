@@ -371,5 +371,109 @@ $(document).on('knack-view-render.view_1996', function(event, scene) {
     });
 });
 
+$(document).on('knack-view-render.view_2357', function(event, page) {
+  //  now with minor changes, used for traffic count attachments field
+  //  this one affects the table that those with editing priviledges see
+  //  replace attachment filename with attachment type
+  //  find each attachment cell
+   $('td.field_3176').each(function() {
+       
+     //  find each attachment link within the cell
+      $(this).find('a').each(function( index ){
+
+        var attachmentType = '';
+      
+        //  search the neighboring field (attachmenty type) and retrieve the corresponding type 
+        $(this).closest('tr').children('td.field_3174').find('span').children('span').each(function( index2 ) {
+              if (index == index2) {
+                attachmentType = $(this).text();
+              }
+        });
+        
+        //  update link contents 
+        // and add a line break to make it consistent with the box next to it (BH)
+        $(this).html(attachmentType + "<br>");
+
+      });
+ 	});
+ });
+
+$(document).on('knack-view-render.view_2486', function(event, page) {
+  //  now with minor changes, used for traffic count attachments field
+  //  this one affects the table that those without editing priviledges see
+  //  replace attachment filename with attachment type
+  //  find each attachment cell
+   $('td.field_3176').each(function() {
+       
+     //  find each attachment link within the cell
+      $(this).find('a').each(function( index ){
+
+        var attachmentType = '';
+      
+        //  search the neighboring field (attachmenty type) and retrieve the corresponding type 
+        $(this).closest('tr').children('td.field_3174').find('span').children('span').each(function( index2 ) {
+              if (index == index2) {
+                attachmentType = $(this).text();
+              }
+        });
+        
+        //  update link contents 
+        // and add a line break to make it consistent with the box next to it (BH)
+        $(this).html(attachmentType + "<br>");
+
+      });
+ 	});
+ });
+
+$(document).on('knack-view-render.view_2491', function(event, page) {
+   // Another copy of the find and replace attachment types script, this one for the manage requests
+   // page
+   $('td.field_3176').each(function() {
+       
+     //  find each attachment link within the cell
+      $(this).find('a').each(function( index ){
+
+        var attachmentType = '';
+      
+        //  search the neighboring field (attachmenty type) and retrieve the corresponding type 
+        $(this).closest('tr').children('td.field_3174').find('span').children('span').each(function( index2 ) {
+              if (index == index2) {
+                attachmentType = $(this).text();
+              }
+        });
+        
+        //  update link contents 
+        // and add a line break to make it consistent with the box next to it (BH)
+        $(this).html(attachmentType + "<br>");
+
+      });
+ 	});
+ });
+
+$(document).on('knack-view-render.view_2465', function(event, page) {
+   // Another copy of the find and replace attachment types script.  This one is used
+   // on the Request Status page under Traffic Counts.
+   $('td.field_3176').each(function() {
+       
+     //  find each attachment link within the cell
+      $(this).find('a').each(function( index ){
+
+        var attachmentType = '';
+      
+        //  search the neighboring field (attachmenty type) and retrieve the corresponding type 
+        $(this).closest('tr').children('td.field_3174').find('span').children('span').each(function( index2 ) {
+              if (index == index2) {
+                attachmentType = $(this).text();
+              }
+        });
+        
+        //  update link contents 
+        // and add a line break to make it consistent with the box next to it (BH)
+        $(this).html(attachmentType + "<br>");
+
+      });
+ 	});
+ });
+
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
