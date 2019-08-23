@@ -10,6 +10,6 @@ The Data Tracker serves as the primary work & asset management system for Austin
 - Signs & Markings
 - Right-of-Way
 
-**[Read the docs](https://github.com/cityofaustin/transportation-data-tracker/tree/master/docs)**
+**[Read the docs](https://github.com/cityofaustin/atd-knack-data-tracker/wiki)**
 
 ![signal details](media/data-tracker-signal-screenshot.png)
