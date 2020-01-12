@@ -478,47 +478,25 @@ $(document).on('knack-view-render.view_2465', function(event, page) {
 ///////////////////////////////
 //// TESTING Inventory API ////
 ///////////////////////////////
-$(document).on('knack-form-submit.view_2661', function(event, view, txn) {
-    // on submission of add item form
-    var endpoint = "https://ywx4jkcwrh.execute-api.us-east-1.amazonaws.com/dev/inventory";
-    var src = Knack.application_id; // data tracker
-    var dest = "5b422c9b13774837e54ed814"; // finance prod
-    var url = endpoint + "?src=" + src + "&dest=" + dest;
+$(document).on('knack-form-submit.any', function(event, view, txn) {
+    // call knack api /inventory endpoint on select form submissions
+    //
+    // - view_2661: add inventory item form
+    // - view_2670: cancel item request form
+    // - view_2669: edit item request form
+    // - view_1197: edit work order form on my work order details
+    //
+  - view_2661: add inventory item form
+- view_2670: cancel item request form
+- view_2669: edit item request form
+- view_1197: edit work order form on my work order details
+    var inventoryPagesKnackApi = ["view_2661", "view_2670", "view_2669", "view_1197"];
 
-    // post inventory request
-    $.post(url).done(function (response) {
-        console.log(response);
-    });
-})
+    if (!inventoryPagesKnackApi.includes(view.key)) {
+        return;
+    }
 
-$(document).on('knack-form-submit.view_2670', function(event, view, txn) {
-    // on submission of cancel form in data tracker
-    var endpoint = "https://ywx4jkcwrh.execute-api.us-east-1.amazonaws.com/dev/inventory";
-    var src = Knack.application_id; // data tracker
-    var dest = "5b422c9b13774837e54ed814"; // finance prod
-    var url = endpoint + "?src=" + src + "&dest=" + dest;
-
-    // post inventory request
-    $.post(url).done(function (response) {
-        console.log(response);
-    });
-})
-
-$(document).on('knack-form-submit.view_2669', function(event, view, txn) {
-    // on submission of edit form in data tracker
-    var endpoint = "https://ywx4jkcwrh.execute-api.us-east-1.amazonaws.com/dev/inventory";
-    var src = Knack.application_id; // data tracker
-    var dest = "5b422c9b13774837e54ed814"; // finance prod
-    var url = endpoint + "?src=" + src + "&dest=" + dest;
-
-    // post inventory request
-    $.post(url).done(function (response) {
-        console.log(response);
-    });
-})
-
-$(document).on('knack-form-submit.view_1197', function(event, view, txn) {
-    // on submission of edit work order form in data tracker my work order details
+    // dev endpoint
     var endpoint = "https://ywx4jkcwrh.execute-api.us-east-1.amazonaws.com/dev/inventory";
     var src = Knack.application_id; // data tracker
     var dest = "5b422c9b13774837e54ed814"; // finance prod
