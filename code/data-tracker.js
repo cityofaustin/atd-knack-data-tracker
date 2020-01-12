@@ -486,10 +486,6 @@ $(document).on('knack-form-submit.any', function(event, view, txn) {
     // - view_2669: edit item request form
     // - view_1197: edit work order form on my work order details
     //
-  - view_2661: add inventory item form
-- view_2670: cancel item request form
-- view_2669: edit item request form
-- view_1197: edit work order form on my work order details
     var inventoryPagesKnackApi = ["view_2661", "view_2670", "view_2669", "view_1197"];
 
     if (!inventoryPagesKnackApi.includes(view.key)) {
